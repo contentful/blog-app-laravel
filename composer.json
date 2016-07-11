@@ -5,7 +5,10 @@
     "type": "project",
     "require": {
         "php": ">=5.5.9",
-        "laravel/framework": "5.2.*"
+        "laravel/framework": "5.2.*",
+        "contentful/contentful": "~0.6.4@beta",
+        "contentful/laravel": "~0.6@dev",
+        "erusev/parsedown": "^1.6"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
@@ -25,6 +28,9 @@
     "autoload-dev": {
         "classmap": [
             "tests/TestCase.php"
+        ],
+        "files": [
+            "app/helpers.php"
         ]
     },
     "scripts": {

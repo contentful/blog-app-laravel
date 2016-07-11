@@ -1,2 +1,14 @@
-// @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/theme";
 
+body {
+    padding-top: 70px;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+.category-list {
+  column-count: 2;
+}
