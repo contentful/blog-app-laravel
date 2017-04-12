@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "9b106043bc54af6af073e2ce355d9d85",
+    "content-hash": "8da2d435affaad77d1c1c38fa1c889f5",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -62,33 +62,35 @@
         },
         {
             "name": "contentful/contentful",
-            "version": "0.6.4-beta",
+            "version": "0.8.1-beta",
             "source": {
                 "type": "git",
                 "url": "https://github.com/contentful/contentful.php.git",
-                "reference": "998cf06d293d1639bd56108ceb3b7f43aada9355"
+                "reference": "75cb5264f87cf00dae0b1e20346219fcbb45fc67"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/contentful/contentful.php/zipball/998cf06d293d1639bd56108ceb3b7f43aada9355",
-                "reference": "998cf06d293d1639bd56108ceb3b7f43aada9355",
+                "url": "https://api.github.com/repos/contentful/contentful.php/zipball/75cb5264f87cf00dae0b1e20346219fcbb45fc67",
+                "reference": "75cb5264f87cf00dae0b1e20346219fcbb45fc67",
                 "shasum": ""
             },
             "require": {
-                "guzzlehttp/guzzle": "^6.0",
+                "guzzlehttp/guzzle": "^6.2.1",
                 "guzzlehttp/psr7": "~1.1",
-                "php": ">=5.5.9",
+                "php": "^5.5.9|^7.0",
                 "psr/http-message": "~1.0",
-                "symfony/console": "~2.7|~3.0"
+                "symfony/console": "~2.7|~3.0",
+                "symfony/filesystem": "~2.7|~3.0"
             },
             "require-dev": {
-                "php-vcr/phpunit-testlistener-vcr": "^1.1",
-                "phpunit/phpunit": "~4.0"
+                "jakub-onderka/php-console-highlighter": "^0.3.2",
+                "jakub-onderka/php-parallel-lint": "^0.9.2",
+                "php-vcr/phpunit-testlistener-vcr": "^1.1"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "0.7-dev"
+                    "dev-master": "0.9.0-dev"
                 }
             },
             "autoload": {
@@ -101,24 +103,24 @@
                 "MIT"
             ],
             "description": "SDK for the Contentful Content Delivery API",
-            "time": "2016-03-03T15:02:53+00:00"
+            "time": "2017-04-11T15:13:09+00:00"
         },
         {
             "name": "contentful/laravel",
-            "version": "dev-master",
+            "version": "0.8.0-beta",
             "source": {
                 "type": "git",
                 "url": "https://github.com/contentful/contentful-laravel.git",
-                "reference": "ee2110e6fcdd4c58c5306c24bf3b452778711f91"
+                "reference": "380d37ac5fa023064409fc1d1a342dc5c541a5ce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/contentful/contentful-laravel/zipball/ee2110e6fcdd4c58c5306c24bf3b452778711f91",
-                "reference": "ee2110e6fcdd4c58c5306c24bf3b452778711f91",
+                "url": "https://api.github.com/repos/contentful/contentful-laravel/zipball/380d37ac5fa023064409fc1d1a342dc5c541a5ce",
+                "reference": "380d37ac5fa023064409fc1d1a342dc5c541a5ce",
                 "shasum": ""
             },
             "require": {
-                "contentful/contentful": "~0.6.4@beta",
+                "contentful/contentful": "~0.8.0@beta",
                 "illuminate/support": "~5.0",
                 "php": ">=5.5.9"
             },
@@ -129,7 +131,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "0.6-dev"
+                    "dev-master": "0.7-dev"
                 }
             },
             "autoload": {
@@ -142,7 +144,7 @@
                 "MIT"
             ],
             "description": "Integrates the Contentful PHP SDK with Laravel.",
-            "time": "2016-07-11T16:17:29+00:00"
+            "time": "2017-04-12T12:27:59+00:00"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -285,27 +287,27 @@
         },
         {
             "name": "guzzlehttp/guzzle",
-            "version": "6.2.0",
+            "version": "6.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "d094e337976dff9d8e2424e8485872194e768662"
+                "reference": "ebf29dee597f02f09f4d5bbecc68230ea9b08f60"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/d094e337976dff9d8e2424e8485872194e768662",
-                "reference": "d094e337976dff9d8e2424e8485872194e768662",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/ebf29dee597f02f09f4d5bbecc68230ea9b08f60",
+                "reference": "ebf29dee597f02f09f4d5bbecc68230ea9b08f60",
                 "shasum": ""
             },
             "require": {
-                "guzzlehttp/promises": "~1.0",
-                "guzzlehttp/psr7": "~1.1",
-                "php": ">=5.5.0"
+                "guzzlehttp/promises": "^1.0",
+                "guzzlehttp/psr7": "^1.3.1",
+                "php": ">=5.5"
             },
             "require-dev": {
                 "ext-curl": "*",
-                "phpunit/phpunit": "~4.0",
-                "psr/log": "~1.0"
+                "phpunit/phpunit": "^4.0",
+                "psr/log": "^1.0"
             },
             "type": "library",
             "extra": {
@@ -343,7 +345,7 @@
                 "rest",
                 "web service"
             ],
-            "time": "2016-03-21T20:02:09+00:00"
+            "time": "2016-10-08T15:01:37+00:00"
         },
         {
             "name": "guzzlehttp/promises",
@@ -1468,6 +1470,55 @@
             "description": "Symfony EventDispatcher Component",
             "homepage": "https://symfony.com",
             "time": "2016-06-29T05:41:56+00:00"
+        },
+        {
+            "name": "symfony/filesystem",
+            "version": "v3.2.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/filesystem.git",
+                "reference": "64421e6479c4a8e60d790fb666bd520992861b66"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/filesystem/zipball/64421e6479c4a8e60d790fb666bd520992861b66",
+                "reference": "64421e6479c4a8e60d790fb666bd520992861b66",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Filesystem\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Filesystem Component",
+            "homepage": "https://symfony.com",
+            "time": "2017-03-26T15:47:15+00:00"
         },
         {
             "name": "symfony/finder",
@@ -3498,7 +3549,7 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "contentful/contentful": 10,
-        "contentful/laravel": 20
+        "contentful/laravel": 10
     },
     "prefer-stable": false,
     "prefer-lowest": false,
