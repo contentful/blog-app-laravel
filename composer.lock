@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "8da2d435affaad77d1c1c38fa1c889f5",
+    "content-hash": "01094ff19f8ba826d08fbe4b610393d5",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -62,16 +62,16 @@
         },
         {
             "name": "contentful/contentful",
-            "version": "0.8.1-beta",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/contentful/contentful.php.git",
-                "reference": "75cb5264f87cf00dae0b1e20346219fcbb45fc67"
+                "reference": "71870680c48bbfd69b0f60e7ab50a4a1ba25c828"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/contentful/contentful.php/zipball/75cb5264f87cf00dae0b1e20346219fcbb45fc67",
-                "reference": "75cb5264f87cf00dae0b1e20346219fcbb45fc67",
+                "url": "https://api.github.com/repos/contentful/contentful.php/zipball/71870680c48bbfd69b0f60e7ab50a4a1ba25c828",
+                "reference": "71870680c48bbfd69b0f60e7ab50a4a1ba25c828",
                 "shasum": ""
             },
             "require": {
@@ -103,24 +103,24 @@
                 "MIT"
             ],
             "description": "SDK for the Contentful Content Delivery API",
-            "time": "2017-04-11T15:13:09+00:00"
+            "time": "2017-04-26T13:11:44+00:00"
         },
         {
             "name": "contentful/laravel",
-            "version": "0.8.0-beta",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/contentful/contentful-laravel.git",
-                "reference": "380d37ac5fa023064409fc1d1a342dc5c541a5ce"
+                "reference": "0a1cef8c7e3b1cab949816e7fe9222296018b28f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/contentful/contentful-laravel/zipball/380d37ac5fa023064409fc1d1a342dc5c541a5ce",
-                "reference": "380d37ac5fa023064409fc1d1a342dc5c541a5ce",
+                "url": "https://api.github.com/repos/contentful/contentful-laravel/zipball/0a1cef8c7e3b1cab949816e7fe9222296018b28f",
+                "reference": "0a1cef8c7e3b1cab949816e7fe9222296018b28f",
                 "shasum": ""
             },
             "require": {
-                "contentful/contentful": "~0.8.0@beta",
+                "contentful/contentful": "~1.0.0",
                 "illuminate/support": "~5.0",
                 "php": ">=5.5.9"
             },
@@ -131,7 +131,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "0.7-dev"
+                    "dev-master": "0.9-dev"
                 }
             },
             "autoload": {
@@ -144,7 +144,7 @@
                 "MIT"
             ],
             "description": "Integrates the Contentful PHP SDK with Laravel.",
-            "time": "2017-04-12T12:27:59+00:00"
+            "time": "2017-04-26T13:40:55+00:00"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -3547,10 +3547,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "contentful/contentful": 10,
-        "contentful/laravel": 10
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

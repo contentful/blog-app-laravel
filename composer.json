@@ -6,8 +6,7 @@
     "require": {
         "php": ">=5.5.9",
         "laravel/framework": "5.2.*",
-        "contentful/contentful": "~0.8.1@beta",
-        "contentful/laravel": "~0.8.0@beta",
+        "contentful/laravel": "~1.0.0",
         "erusev/parsedown": "^1.6"
     },
     "require-dev": {
